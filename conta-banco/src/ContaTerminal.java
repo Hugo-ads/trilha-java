@@ -19,7 +19,7 @@
             String agencia = scanner.next();
     
             System.out.println("Digite o n° de sua conta (somente números):");
-            long conta = scanner.nextLong();
+            int conta = scanner.nextInt();
             
             //dados sobre o saldo atual
             double saldo = (237.48);
